@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "turtle-cli-controller"
+version = "0.1.0"
+description = ""
+authors = ["nNeD5 <oned.reg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+urwid = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
